@@ -1,0 +1,10 @@
+body {
+    background-color: #3D1A4A;
+}
+
+main {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    height: 100vh;
+}
