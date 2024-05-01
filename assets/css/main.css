@@ -1,5 +1,6 @@
 body {
     background-color: #3D1A4A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -7,4 +8,49 @@ main {
     background-color: white;
     margin: 0 auto;
     height: 100vh;
+}
+
+#news-container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.news {
+    display: flex;
+    flex-direction: row; /* Establece la dirección de los elementos en fila */
+    align-items: flex-start; /* Alinea los elementos al principio del eje transversal */
+    margin-bottom: 20px;
+}
+
+.images {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 20px;
+}
+
+.text-container {
+    flex: 1 1 auto; /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: auto */
+}
+
+.art-title {
+    margin: 0 0 10px 0; /* Ajuste de margen */
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.art-description {
+    margin: 0 0 10px 0; /* Ajuste de margen */
+    font-size: 16px;
+    color: black;
+}
+
+.autor {
+    margin: 0; /* Ajuste de margen */
+    font-size: 14px;
+    color: #666; /* Color de texto gris */
+}
+
+a {
+    text-decoration: none;
 }
