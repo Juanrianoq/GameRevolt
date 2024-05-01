@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <body>
-    <footer>
+     <footer>
             <div class="logo">
                 <h2 class="logo-nombre">GameRevolt</h2>
             </div>
