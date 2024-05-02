@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameRevolt | Inicio</title>
-    <link rel="stylesheet" href="assets/css/layout.css">
+    <title>GameRevolt</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="icon" href="assets/images/control.ico">
 </head>
 <body>
     <?php
-        require 'views/layout/header.php';
+        include 'views/layout/header.php';
     ?>
 
     <main>
@@ -18,10 +18,10 @@
         <h1 id="title">Noticias</h1>
             <article class="news">
 
-                <a href="#">
-                    <img src="assets/images/noticias/Imagen-Noticia1.jpeg" alt="Captura del armamento y vehiculos pesados de Call of Duty: Cold War" class="images">
+                <a href="views/news.php">
+                    <img src="assets/images/news/Imagen-Noticia1.jpeg" alt="Captura del armamento y vehiculos pesados de Call of Duty: Cold War" class="images">
                 </a>
-                <a href="#">
+                <a href="views/news1.php">
                     <div class="text-container">
                         <h2 class="art-title">
                             Activision ha revelado el futuro de la saga Call of Duty por culpa de un descuido en su última actualización. Un nuevo Black Ops podría confirmarse dentro de muy poco
@@ -41,8 +41,8 @@
             <hr>
 
             <article class="news">
-                <a href="#">
-                    <img src="assets/images/noticias/Imagen-Noticia2.jpeg" alt="Imagen de un PS4 y un XBOX siendo comparados" class="images">
+                <a href="views/news2.php">
+                    <img src="assets/images/news/Imagen-Noticia2.jpeg" alt="Imagen de un PS4 y un XBOX siendo comparados" class="images">
                 </a>
                 <a href="#">
                     <div class="text-container">
@@ -63,7 +63,7 @@
         </div>
     </main>
     <?php
-        require 'views/layout/footer.php';
+        include 'views/layout/footer.php';
     ?>
 </body>
 </html>

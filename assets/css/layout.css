@@ -36,7 +36,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0 30px;
     border-right: 1px solid #FFFFFF;
 }
@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0 30px;
 }
 
@@ -94,8 +94,15 @@ header {
     margin-bottom: -23px;
 }
 
+.logo-nombre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+    font-style: italic;
+}
+
 .nombres{
-    font-size: 11px;
+    font-size: 14px;
     color: #FFFFFF;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
@@ -111,4 +118,5 @@ header {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
