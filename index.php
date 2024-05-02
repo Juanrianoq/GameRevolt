@@ -44,7 +44,7 @@
                 <a href="views/news2.php">
                     <img src="assets/images/news/Imagen-Noticia2.jpeg" alt="Imagen de un PS4 y un XBOX siendo comparados" class="images">
                 </a>
-                <a href="#">
+                <a href="views/news2.php">
                     <div class="text-container">
                         <h2 class="art-title">
                             "La demanda es muy débil". Las ventas de PS5 y Xbox Series X|S no contentan ni a AMD este 2024, que estima una caída importante para el resto del año
