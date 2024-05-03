@@ -24,7 +24,7 @@ main{
     padding: 0 auto;
 }
 
-@media (max-width: 715px) {
+/*@media (max-width: 715px) {
     .head{
         width: 100%; 
         height: 300px;
@@ -45,7 +45,7 @@ main{
         flex-direction: column;
         margin-top: 30px;
     }
-}
+}*/
 
 .titulo{
     font-size: 40px;
