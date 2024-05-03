@@ -36,7 +36,7 @@
                 <td class="positions"> 1 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/fifa23.png" width="100">
+                    <img src="../assets/images/ranking/fifa23.png" width="100" class="img-games">
                     <p>
                       <strong>FIFA 23</strong> <br> PS5
                     </p>
@@ -50,7 +50,7 @@
                 <td class="positions"> 2 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/elysium.png" width="100">
+                    <img src="../assets/images/ranking/elysium.png" width="100" class="img-games">
                     <p>
                       <strong>Valkyrie Elysium</strong> <br> PS4
                     </p>
@@ -64,7 +64,7 @@
                 <td class="positions"> 3 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/strayblade.png" width="100">
+                    <img src="../assets/images/ranking/strayblade.png" width="100" class="img-games">
                     <p>
                       <strong>Stray Blade</strong> <br> Xbox Series
                     </p>
@@ -78,7 +78,7 @@
                 <td class="positions"> 4 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/manorlords.png" width="100">
+                    <img src="../assets/images/ranking/manorlords.png" width="100" class="img-games">
                     <p>
                       <strong>Manor Lords</strong> <br> PC
                     </p>
@@ -92,7 +92,7 @@
                 <td class="positions"> 5 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/gtaV.png" width="100">
+                    <img src="../assets/images/ranking/gtaV.png" width="100" class="img-games">
                     <p>
                       <strong>Grand Theft Auto VI</strong> <br> Xbox Series
                     </p>
@@ -106,7 +106,7 @@
                 <td class="positions"> 6 </td>
                 <td>
                   <div class="games-info">
-                    <img src="../assets/images/ranking/miasma.png" width="100">
+                    <img src="../assets/images/ranking/miasma.png" width="100" class="img-games">
                     <p>
                       <strong>Miasma Chronicles</strong> <br> PS5
                     </p>
