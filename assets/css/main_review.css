@@ -1,0 +1,111 @@
+body {
+    background-color: #3D1A4A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    max-width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    height: 130vh;
+}
+
+#reviews-container {
+    max-width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row; /* Establece la dirección de los elementos en fila */
+    align-items: flex-start; /* Alinea los elementos al principio del eje transversal */
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.images {
+    max-width: 400px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.text-container {
+    flex: 1 1 auto; /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: auto */
+}
+
+.art-title {
+    margin: 0 0 10px 0; /* Ajuste de margen */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.art-description {
+    margin: 0 0 10px 0; /* Ajuste de margen */
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+.autor {
+    margin: 0; /* Ajuste de margen */
+    font-size: 14px;
+    color: #666; /* Color de texto gris */
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    margin-top: 23px;
+    padding-top: 50px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+@media (max-width: 1270px) {
+
+    main {
+        height: max-content;
+        padding-bottom: 40px;
+    }
+
+    .reviews {
+        flex-direction: column;
+        margin-bottom: 20px; /* Espaciado entre los artículos */
+    }
+
+    .images {
+        max-width: 100%; /* Ajusta el ancho de las imágenes al 100% */
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+        margin: 0 auto; /* Centra horizontalmente la imagen */
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .text-container {
+        padding: 10px; /* Ajusta el espaciado interior */
+        max-height: auto;
+    }
+}
+
+@media (max-width: 690px) {
+    main {
+        height: max-content;
+        padding-bottom: 40px;
+    }
+
+    .reviews {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+
+    .text-container {
+        margin-top: 10px; /* Espaciado entre la imagen y el texto */
+    }
+}

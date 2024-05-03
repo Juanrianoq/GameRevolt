@@ -9,7 +9,7 @@
                 <a href="index.php" class="nav-inicio">INICIO</a>
                 <a href="tips_tutorials.php" class="nav-consejos">CONSEJOS Y TUTORIALES</a>
                 <a href="ranking.php" class="nav-ranking">RANKING</a>
-                <a href="reviews.php" class="nav-reseñas">RESEÑAS</a>
+                <a href="main_review.php" class="nav-reseñas">RESEÑAS</a>
             </nav>
         </div>
         <div class="iniciar-sesion">

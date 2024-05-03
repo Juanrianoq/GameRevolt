@@ -1,0 +1,44 @@
+body {
+    background-color: #3D1A4A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.review-title {
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 38px;
+}
+
+.review-description {
+    font-weight: normal;
+    font-size: 25px;
+    font-style: italic;
+}
+
+main {
+    max-width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    height: max-content;
+}
+
+#review-container {
+    max-width: 60%;
+    margin: 0 auto;
+    height: max-content;
+    padding-bottom: 50px;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+    margin-right: 30px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
