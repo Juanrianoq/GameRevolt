@@ -1,6 +1,6 @@
 <header>
     <div class="logo">
-        <img src="/assets/images/control.png">
+        <img src="../assets/images/control.png" class="control" alt="logo">
         <h2 class="logo-nombre">GameRevolt</h2>
     </div>
     <div class="barra">
@@ -14,7 +14,7 @@
         </div>
         <div class="iniciar-sesion">
             <a href="#">
-                <img src="/assets/images/icon-user.png" class="user" alt="icono-user">
+                <img src="../assets/images/icon-user.png" class="user" alt="icono-user">
             </a>
         </div>
     </div>
