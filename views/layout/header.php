@@ -6,14 +6,14 @@
     <div class="barra">
         <div class="botones-base">
             <nav>
-                <a href="#" class="nav-inicio">INICIO</a>
-                <a href="#" class="nav-consejos">CONSEJOS Y TUTORIALES</a>
-                <a href="#" class="nav-ranking">RANKING</a>
-                <a href="#" class="nav-reseñas">RESEÑAS</a>
+                <a href="index.php" class="nav-inicio">INICIO</a>
+                <a href="tips_tutorials.php" class="nav-consejos">CONSEJOS Y TUTORIALES</a>
+                <a href="ranking.php" class="nav-ranking">RANKING</a>
+                <a href="reviews.php" class="nav-reseñas">RESEÑAS</a>
             </nav>
         </div>
         <div class="iniciar-sesion">
-            <a href="#">
+            <a href="login.php">
                 <img src="../assets/images/icon-user.png" class="user" alt="icono-user">
             </a>
         </div>
