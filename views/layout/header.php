@@ -7,7 +7,7 @@
         <div class="botones-base">
             <nav>
                 <a href="index.php" class="nav-inicio">INICIO</a>
-                <a href="tips_tutorials.php" class="nav-consejos">CONSEJOS Y TUTORIALES</a>
+                <a href="main_tips_tutos.php" class="nav-consejos">CONSEJOS Y TUTORIALES</a>
                 <a href="ranking.php" class="nav-ranking">RANKING</a>
                 <a href="main_review.php" class="nav-reseñas">RESEÑAS</a>
             </nav>

@@ -20,6 +20,8 @@
 
             <h2 class="news-description">AMD dice que en la segunda mitad de 2024 será peor que la primera</h2>
 
+            <hr>
+
             <img src="../assets/images/news/Imagen-Noticia2.jpeg" alt="Imagen de un PS4 y un XBOX siendo comparados" class="images">
 
             <p>

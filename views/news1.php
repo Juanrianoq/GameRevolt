@@ -20,6 +20,8 @@
 
             <h2 class="news-description">Multitud de pistas apuntan a que una sexta entrega de Call of Duty: Black Ops está a punto de hacerse realidad</h2>
 
+            <hr>
+
             <img src="../assets/images/news/Imagen-Noticia1.jpeg" alt="Captura del armamento y vehiculos pesados de Call of Duty: Cold War" class="images">
 
             <p>

@@ -3,14 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.review-title {
+.tips-title {
     padding-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     font-size: 38px;
 }
 
-.review-description {
+.tips-description {
     font-weight: normal;
     font-size: 25px;
     font-style: italic;
@@ -23,7 +23,7 @@ main {
     height: max-content;
 }
 
-#review-container {
+#tips-container {
     max-width: 60%;
     margin: 0 auto;
     height: max-content;

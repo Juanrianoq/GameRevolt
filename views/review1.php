@@ -20,6 +20,8 @@
 
             <h2 class="review-description">La acción RPG de Sand Land nos permite pilotar los geniales Toriyama-mechs que vimos en Dragon Ball, sin duda el mejor homenaje a las obras del ilustre Akira Toriyama.</h2>
 
+            <hr>
+
             <img src="../assets/images/reviews/image-review1.jpeg" alt="Imagen trailer Sand Land" class="images">
 
             <p>

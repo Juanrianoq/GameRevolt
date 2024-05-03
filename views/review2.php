@@ -20,6 +20,8 @@
 
             <h2 class="review-description">Hangar 13 y 2K traen de nuevo a la vida la saga Top Spin con una entrega que apenas mejora lo que ya hizo hace más de una década</h2>
 
+            <hr>
+
             <img src="../assets/images/reviews/imagen-review2.jpeg" alt="Portada del juego Top Spin 2K25" class="images">
 
             <p>
