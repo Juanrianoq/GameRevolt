@@ -1,0 +1,144 @@
+body{
+    background-color: #3D1A4A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.marco{
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+}
+
+.contenido{
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 23px;
+    padding-top: 20px; 
+    padding: 0 auto;
+}
+
+@media (max-width: 715px) {
+    .head{
+        width: 100%; 
+        height: 300px;
+    }
+    .fondo{
+        padding: 0 55px;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .marco{
+        padding: 40px 20px;
+    }
+    .txtcorreo, .txtcontraseña, .txtalias{
+        width: 260px;
+    }
+    .cuenta{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+.titulo{
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 0px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.correo, .contraseña, .alias{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.nomcorreo, .nomcontraseña, .nomalias{
+    margin-bottom: -10px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-right: 160px;
+}
+
+.nomcorreo {
+    padding-right: 180px;
+}
+
+.nomalias {
+    padding-right: 190px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.txtcorreo, .txtcontraseña, .txtalias{
+    border-radius: 15px;
+    border: 1px solid #000000;
+    min-height: 35px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+
+.boton{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnacceder{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0B99AC;
+    border-radius: 30px;
+    border: 0;
+}
+
+.btnacceder:hover{
+    background-color: #31b5c6;
+}
+
+.cuenta{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomcuenta{
+    margin: 2px;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.nav-cuenta{
+    margin: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0B99AC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-cuenta:hover{
+    color: #0c3b42;
+}

@@ -13,7 +13,7 @@
             </nav>
         </div>
         <div class="iniciar-sesion">
-            <a href="login.php">
+            <a href="log_in.php">
                 <img src="../assets/images/icon-user.png" class="user" alt="icono-user">
             </a>
         </div>
