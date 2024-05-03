@@ -19,7 +19,7 @@
                 <div class="titulo">
                     <h3 class="registrarse">Registrate</h3>
                 </div>
-                <form id="inicio" action="#" method="post">
+                <form id="inicio" action="index.php" method="post">
                     <div class="alias">
                         <h3 class="nomalias">Alias</h3><br>
                         <input type="text" class="txtalias" size="35" required>

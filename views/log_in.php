@@ -19,7 +19,7 @@
                 <div class="titulo">
                     <h3 class="iniciarsesion">Iniciar Sesion</h3>
                 </div>
-                <form id="inicio" action="#" method="post">
+                <form id="inicio" action="index.php" method="post">
                     <div class="correo">
                         <h3 class="nomcorreo">Correo</h3><br>
                         <input type="email" class="txtcorreo" size="35" required>
