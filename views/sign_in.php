@@ -33,7 +33,7 @@
                         <input type="password" class="txtcontraseña" size="35" required>
                     </div>
                     <div class="boton">
-                        <input type="submit" class="btnacceder" value="Acceder">
+                        <input type="submit" class="btnacceder" name="acceder" value="Acceder">
                     </div>
                 </form>
                 <div class="cuenta">
