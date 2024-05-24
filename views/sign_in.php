@@ -19,21 +19,21 @@
                 <div class="titulo">
                     <h3 class="registrarse">Registrate</h3>
                 </div>
-                <form id="inicio" action="index.php" method="post">
+                <form id="inicio" action="../controllers/signinController.php" method="post">
                     <div class="alias">
                         <h3 class="nomalias">Alias</h3><br>
-                        <input type="text" class="txtalias" size="35" required>
+                        <input type="text" class="txtalias" name="alias" size="35" required>
                     </div>
                     <div class="correo">
                         <h3 class="nomcorreo">Correo</h3><br>
-                        <input type="email" class="txtcorreo" size="35" required>
+                        <input type="email" class="txtcorreo" name="correo" size="35" required>
                     </div>
                     <div class="contraseña">
                         <h3 class="nomcontraseña">Contraseña</h3><br>
-                        <input type="password" class="txtcontraseña" size="35" required>
+                        <input type="password" class="txtcontraseña" name="contraseña" size="35" required>
                     </div>
                     <div class="boton">
-                        <input type="submit" class="btnacceder" name="acceder" value="Acceder">
+                        <input type="submit" class="btnacceder" name="registro" value="Acceder">
                     </div>
                 </form>
                 <div class="cuenta">

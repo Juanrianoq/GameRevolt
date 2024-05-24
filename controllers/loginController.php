@@ -1,33 +1,33 @@
 <?php
 
     include_once("../config/db.php");
+    require '../models/userModel.php';
+    session_start();
 
-    $error = "";
+    if(isset($_POST['ingresar'])){
+        $email = isset($_POST['correo']) ? $_POST['correo'] : false;
+        $password = isset($_POST['contraseña']) ? $_POST['contraseña'] : false;
 
-    if(isset($_POST['acceder'])){
-        $correo = $_POST['correo'];
-        $contraseña = $_POST['contraseña'];
-        
-        session_start();
-        
-        $_SESSION['usuario'] = $correo;
-        
-        $consulta = "SELECT * FROM registro WHERE correo = '$correo' AND contraseña = '$contraseña'";
-        
-        $resultado = mysqli_query($conex, $consulta);
-        $filas = mysqli_num_rows($resultado);
-        
-        if($filas>0){
-            //inicia sesion correctamente y redirige a noticias
-            header("location: index.php");
-        }else{
-            //datos incorrectos
-            $error = "Acceso inválido. Por favor, inténtalo de nuevo.";
+        if ($email && $password){
+            $user = new UserModel();
+            $user->setEmail($email);
+            $user->setPassword($password);
+
+            $login = $user->loginUser();
+            if($login == true){
+                header("location: ../views/index.php");
+                
+                $_SESSION['email'] = $email;
+                $_SESSION['password'] = $password;
+            }else{
+                ?>
+                    <script>
+                        window.location.href = "../views/log_in.php";
+                        alert("El correo o la contraseña ingresada no son validos.");
+                    </script>
+                <?php
+            }
         }
-        
-        mysqli_free_result($resultado);
-        mysqli_close($conex);
-
     }
 
 ?>
